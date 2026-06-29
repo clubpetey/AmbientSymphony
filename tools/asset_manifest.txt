@@ -182,3 +182,5 @@ sounds/special/body/heartbeat.ogg
 sounds/special/body/windchill_ring.ogg
 sounds/special/threat/tension_drone.ogg
 sounds/special/threat/tension_drone2.ogg
+sounds/biome/grassland/locust_1.ogg
+sounds/biome/grassland/locust_2.ogg

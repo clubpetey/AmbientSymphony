@@ -16,7 +16,7 @@ Ambient Symphony combines the spirit of *Salty's Cave Symphony* and *Forest Symp
 - **Reactive situations** — a **threat** tension drone when drifters are near (stronger at night), a freezing **wind-chill ring** and a near-death **heartbeat** that respond to your body temperature and health, and an **aurora** shimmer on clear, cold nights.
 - **Rare stingers** — occasional distant surprises (a branch snap, brush rustle, settling rock, far-off echo) on a long randomized interval, so the world never feels completely still.
 - **Atmosphere & polish** — **cave reverb** for underground depth, surface ambience **muffled when you're sheltered** indoors or under canopy (volume + low-pass filter), **ducking** under base-game music, **wind-reactive** biome beds, and per-play **pitch variance** so repeated one-shots don't sound identical.
-- **Configuration** — a full JSON config, an optional in-game **[ConfigLib](https://mods.vintagestory.at/configlib)** settings GUI, one-click **volume presets** (Subtle / Balanced / Immersive), and an **`/ambientsymphony`** debug command.
+- **Configuration** — a full JSON config, an optional in-game **[ConfigLib](https://mods.vintagestory.at/configlib)** settings GUI, one-click **volume presets** (Subtle / Balanced / Immersive), and an **`.ambientsymphony`** debug command.
 
 ### Augment, never override
 
@@ -70,9 +70,9 @@ Set any section's `Enabled` to `false` to turn it off, or `MasterEnabled` to `fa
 
 With ConfigLib installed, Ambient Symphony appears in the mod settings GUI with a curated set of controls: master toggle, loudness preset, master volume, pitch variance, cave reverb, indoor muffle, music ducking, and group toggles for core / biome / special ambience, stingers, threat, and body-state cues. Most changes apply live; enabling a subsystem that was off at world-load (and changing reverb/pitch-variance) takes effect on the next world reload.
 
-### `/ambientsymphony` debug command
+### `.ambientsymphony` debug command
 
-Type `/ambientsymphony` (alias `/ambsym`) in chat to print the live environment snapshot driving the ambience — biome, depth/altitude, sheltered state, sunlight, temperature, rainfall, forest density, geologic activity, season, time of day, wind, temporal stability, health, body temperature, the number of active sounds, and the current music-duck level. Handy for understanding (or tuning) what you're hearing.
+Type `.ambientsymphony` (alias `.ambsym`) in chat to print the live environment snapshot driving the ambience — biome, depth/altitude, sheltered state, sunlight, temperature, rainfall, forest density, geologic activity, season, time of day, wind, temporal stability, health, body temperature, the number of active sounds, and the current music-duck level. Handy for understanding (or tuning) what you're hearing.
 
 ---
 

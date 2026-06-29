@@ -157,6 +157,8 @@ EXPANSION = {
     "windchill_ring": ("A bitter freezing wind-chill ambience, a thin high keening ring of icy wind biting and howling faintly, harsh and cold, seamless loop", 8.0, True),
     "heartbeat": ("A slow muffled human heartbeat thudding steadily as if heard from inside the body, deep dull rhythmic pulse, seamless loop", 6.0, True),
     "shimmer": ("A faint ethereal aurora shimmer, soft otherworldly high glassy shimmering tones drifting across a frozen starry night sky, magical and serene, seamless loop", 9.0, True),
+    # --- grassland locust = cicada hot-day drone (rare, louder one-shot over the quiet meadow bed) ---
+    "locust": ("The loud droning whine of cicadas on a hot summer day, a single sustained high buzzing insect drone that swells up in volume then slowly fades away, classic summer heat sound, isolated, no other sounds", 5.0, False),
 }
 
 
