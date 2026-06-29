@@ -51,7 +51,7 @@ Ambient Symphony was rebuilt specifically to avoid the frame-time spikes and aud
 
 ### Version compatibility
 
-Built and tested against Vintage Story 1.22.0. but the mod should work on **1.22.0 through 1.22.3** and any later 1.22.x.
+Built and tested against Vintage Story 1.22.3. but the mod should work on **1.22.0 through 1.22.3** and any later 1.22.x.
 
 ---
 

@@ -7,6 +7,7 @@ $ErrorActionPreference = 'Stop'
 $root     = Split-Path -Parent $PSScriptRoot
 $dll      = Join-Path $root 'src\bin\Release\AmbientSymphony.dll'
 $modinfo  = Join-Path $root 'src\modinfo.json'
+$modicon  = Join-Path $root 'media\modicon.png'
 $assets   = Join-Path $root 'assets'
 $buildDir = Join-Path $root 'build'
 $zip      = Join-Path $buildDir 'AmbientSymphony_1.0.0.zip'
@@ -14,6 +15,7 @@ $zip      = Join-Path $buildDir 'AmbientSymphony_1.0.0.zip'
 if (-not (Test-Path $dll))     { throw "Missing build output: $dll (run: dotnet build src/AmbientSymphony.csproj -c Release)" }
 if (-not (Test-Path $modinfo)) { throw "Missing modinfo.json: $modinfo" }
 if (-not (Test-Path $assets))  { throw "Missing assets folder: $assets" }
+if (-not (Test-Path $modicon)) { throw "Missing modicon.png: $modicon (run: python tools/gen_cover.py)" }
 
 New-Item -ItemType Directory -Force -Path $buildDir | Out-Null
 if (Test-Path $zip) { Remove-Item -Force $zip }
@@ -25,6 +27,7 @@ Add-Type -AssemblyName System.IO.Compression.FileSystem
 $items = New-Object System.Collections.Generic.List[object]
 $items.Add(@($modinfo, 'modinfo.json'))
 $items.Add(@($dll, 'AmbientSymphony.dll'))
+$items.Add(@($modicon, 'modicon.png'))
 
 $assetsParent = (Split-Path -Parent $assets)
 Get-ChildItem -Path $assets -Recurse -File | ForEach-Object {
