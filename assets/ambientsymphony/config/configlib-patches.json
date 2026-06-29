@@ -1,0 +1,112 @@
+{
+  "version": 1,
+  "settings": [
+    {
+      "type": "boolean",
+      "code": "masterEnabled",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-masterEnabled",
+      "comment": "Master toggle for all Ambient Symphony sound.",
+      "weight": 100
+    },
+    {
+      "type": "integer",
+      "code": "preset",
+      "default": 0,
+      "mapping": { "custom": 0, "subtle": 1, "balanced": 2, "immersive": 3 },
+      "ingui": "ambientsymphony:cfg-preset",
+      "comment": "Loudness preset. 'custom' uses the Master Volume slider; the others override it.",
+      "weight": 95
+    },
+    {
+      "type": "float",
+      "code": "masterVolume",
+      "default": 1.0,
+      "range": { "min": 0.0, "max": 2.0, "step": 0.05 },
+      "ingui": "ambientsymphony:cfg-masterVolume",
+      "comment": "Overall ambience volume (used when preset = custom).",
+      "weight": 90
+    },
+    {
+      "type": "float",
+      "code": "pitchVariance",
+      "default": 0.06,
+      "range": { "min": 0.0, "max": 0.2, "step": 0.01 },
+      "ingui": "ambientsymphony:cfg-pitchVariance",
+      "comment": "Random per-play pitch variance on one-shots (needs world reload).",
+      "weight": 80
+    },
+    {
+      "type": "boolean",
+      "code": "caveReverb",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-caveReverb",
+      "comment": "Reverb/echo on underground sounds (needs world reload).",
+      "weight": 75
+    },
+    {
+      "type": "boolean",
+      "code": "indoorMuffle",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-indoorMuffle",
+      "comment": "Muffle surface ambience when sheltered indoors/under canopy.",
+      "weight": 70
+    },
+    {
+      "type": "boolean",
+      "code": "ducking",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-ducking",
+      "comment": "Lower ambience while base-game music plays.",
+      "weight": 65
+    },
+    {
+      "type": "boolean",
+      "code": "coreEnabled",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-coreEnabled",
+      "comment": "Core cave + forest ambience (hum, howl, drips, bats, rats, birds, ponds, insects, tree creak).",
+      "weight": 60
+    },
+    {
+      "type": "boolean",
+      "code": "biomesEnabled",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-biomesEnabled",
+      "comment": "Biome ambience beds (desert, grassland, swamp, tundra, jungle).",
+      "weight": 55
+    },
+    {
+      "type": "boolean",
+      "code": "specialEnabled",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-specialEnabled",
+      "comment": "Special situations (coast, alpine, deep abyss, geode, hot spring, aurora, temporal).",
+      "weight": 50
+    },
+    {
+      "type": "boolean",
+      "code": "stingers",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-stingers",
+      "comment": "Rare distant 'stinger' surprises.",
+      "weight": 45
+    },
+    {
+      "type": "boolean",
+      "code": "threat",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-threat",
+      "comment": "Tension drone when hostile drifters are nearby.",
+      "weight": 40
+    },
+    {
+      "type": "boolean",
+      "code": "bodyState",
+      "default": true,
+      "ingui": "ambientsymphony:cfg-bodyState",
+      "comment": "Freezing wind-chill ring and near-death heartbeat.",
+      "weight": 35
+    }
+  ]
+}

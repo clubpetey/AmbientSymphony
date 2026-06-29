@@ -1,0 +1,16 @@
+{
+  "modname-ambientsymphony": "Ambient Symphony",
+  "cfg-masterEnabled": "Enable Ambient Symphony",
+  "cfg-preset": "Loudness preset",
+  "cfg-masterVolume": "Master volume",
+  "cfg-pitchVariance": "One-shot pitch variance",
+  "cfg-caveReverb": "Cave reverb",
+  "cfg-indoorMuffle": "Indoor muffle",
+  "cfg-ducking": "Duck under music",
+  "cfg-coreEnabled": "Core cave + forest ambience",
+  "cfg-biomesEnabled": "Biome ambience",
+  "cfg-specialEnabled": "Special situations",
+  "cfg-stingers": "Rare stingers",
+  "cfg-threat": "Threat tension drone",
+  "cfg-bodyState": "Body-state cues"
+}

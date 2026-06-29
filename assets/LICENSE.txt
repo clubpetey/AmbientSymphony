@@ -1,0 +1,41 @@
+Ambient Symphony — Audio Assets License
+=======================================
+
+SPDX-License-Identifier: CC-BY-4.0
+
+The sound files in this directory and its subdirectories (the `.ogg` audio
+clips under `assets/ambientsymphony/sounds/`) are licensed under the
+
+    Creative Commons Attribution 4.0 International License (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material
+  for any purpose, even commercially,
+
+under the following term:
+  - Attribution — You must give appropriate credit, provide a link to this
+    license, and indicate if changes were made.
+
+Suggested attribution:
+    "Ambient Symphony audio by pete, licensed under CC BY 4.0."
+
+The full legal text of CC BY 4.0 is available at:
+    https://creativecommons.org/licenses/by/4.0/legalcode
+
+
+Provenance & third-party terms
+------------------------------
+These clips are ORIGINAL works generated with the ElevenLabs Sound Effects
+API via the tooling in `tools/`. They are NOT derived from the audio of
+Salty's Cave Symphony or Forest Symphony.
+
+Audio generated with third-party AI services remains subject to those
+services' terms. Anyone redistributing or building upon these files should be
+aware that their use is also governed by the ElevenLabs Terms of Service in
+effect when the audio was generated. Where those terms are more restrictive
+than CC BY 4.0, they take precedence.
+
+(The software/tooling in this repository is licensed separately under MIT —
+see the top-level `LICENSE` file.)
