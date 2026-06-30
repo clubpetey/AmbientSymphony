@@ -184,3 +184,8 @@ sounds/special/threat/tension_drone.ogg
 sounds/special/threat/tension_drone2.ogg
 sounds/biome/grassland/locust_1.ogg
 sounds/biome/grassland/locust_2.ogg
+sounds/biome/ocean/ocean_day.ogg
+sounds/biome/ocean/ocean_night.ogg
+sounds/biome/forest/forest_day.ogg
+sounds/biome/forest/forest_night.ogg
+sounds/biome/alpine/alpine_dread.ogg

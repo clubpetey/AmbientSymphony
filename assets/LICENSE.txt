@@ -37,5 +37,22 @@ aware that their use is also governed by the ElevenLabs Terms of Service in
 effect when the audio was generated. Where those terms are more restrictive
 than CC BY 4.0, they take precedence.
 
+
+Third-party clips under their own license (NOT CC BY 4.0)
+--------------------------------------------------------
+The following file is a third-party field recording with its OWN license that
+OVERRIDES the blanket CC BY 4.0 above. Because it is licensed NonCommercial-
+ShareAlike, (a) it may only be used non-commercially, and (b) it (and any work
+that incorporates it) must be shared under the same CC BY-NC-SA 4.0 terms:
+
+  File:        assets/ambientsymphony/sounds/biome/swamp/bittern_1.ogg
+  Source:      Xeno-canto recording XC338164  (https://xeno-canto.org/338164)
+  Recordist:   Paul Marvin
+  License:     CC BY-NC-SA 4.0  (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+  Changes:     converted to OGG, trimmed to a ~6s excerpt, peak-normalized
+
+  Attribution: "American Bittern call by Paul Marvin, from xeno-canto
+                (XC338164), licensed CC BY-NC-SA 4.0."
+
 (The software/tooling in this repository is licensed separately under MIT —
 see the top-level `LICENSE` file.)

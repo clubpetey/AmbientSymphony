@@ -112,11 +112,11 @@ EXPANSION = {
     "crickets_night": ("Calm night meadow ambience, a steady chorus of crickets chirping across open grassland under the stars, seamless loop", 9.0, True),
     "marsh_day": ("Daytime swamp marsh ambience, croaking frogs, buzzing bog insects and trickling stagnant water among reeds, humid wetland, seamless loop", 9.0, True),
     "frogs_night": ("Nighttime swamp ambience, a dense chorus of croaking frogs and chirping night insects over still marsh water, seamless loop", 9.0, True),
-    "icy_wind": ("Bleak frozen tundra ambience, biting icy wind gusting across an open snowfield, cold and desolate, seamless loop", 9.0, True),
+    "icy_wind": ("A pure continuous smooth airy polar wind, a steady flowing rush of air blowing across an empty snowfield, only soft wind tone — absolutely NO footsteps, no snow crunching, no boots, no gravel, no clinking, no rustling, no rhythmic crunch of any kind, just clean flowing wind, bleak and desolate, seamless loop", 9.0, True),
     "cold_drone": ("Desolate frozen tundra night, a low hollow wind drone over endless snow and ice, cold emptiness, seamless loop", 9.0, True),
     "insect_wall_day": ("Dense tropical rainforest daytime ambience, a thick wall of buzzing insects and cicadas with chirping exotic birds in a humid jungle canopy, seamless loop", 9.0, True),
     "insect_wall_night": ("Dense tropical rainforest night ambience, a thick humid wall of chirping insects, frogs and distant nocturnal jungle creatures, seamless loop", 9.0, True),
-    "high_shimmer": ("High alpine mountain ambience, thin cold wind across a windswept rocky summit, faint airy shimmer and vast open emptiness, seamless loop", 9.0, True),
+    "high_shimmer": ("High alpine mountain summit ambience, thin cold natural wind whistling over bare rocky crags, airy vast and empty, real mountain wind and NOT a synth or UFO drone, seamless loop", 9.0, True),
     "sea_breeze": ("Gentle coastal sea breeze ambience, soft steady wind off open water along a shoreline, faint and airy, seamless loop", 9.0, True),
     "deep_drone": ("Deep underground abyss ambience, an immense low oppressive drone far beneath the earth, hollow echoing void, dark and ominous, seamless loop", 10.0, True),
     "bubbling": ("Geothermal hot spring ambience, gently bubbling and gurgling hot mineral water with soft rising steam, seamless loop", 8.0, True),
@@ -127,18 +127,18 @@ EXPANSION = {
     "skylark": ("A skylark singing a bright trilling song high over an open meadow, single isolated birdcall", 2.5, False),
     "grasshopper": ("A grasshopper stridulating a short dry rasp in tall grass, single isolated insect chirp", 2.0, False),
     "cricket_solo": ("A single cricket chirping a few clear isolated chirps in the quiet night, single isolated sound", 2.5, False),
-    "bittern": ("A bittern booming its deep resonant call across a misty marsh, single isolated wetland bird call", 2.8, False),
+    "bittern": ("A bittern marsh bird's deep low foghorn-like booming call echoing across misty wetland reeds, a natural resonant organic 'whoomp' bird call, NOT electronic or sci-fi, single isolated call", 2.8, False),
     "bog_bubble": ("A swamp gas bubble rising and plopping through stagnant bog water, single wet glooping sound", 2.0, False),
     "frog_croak": ("A single bullfrog croaking a deep resonant ribbit by the marsh, single isolated frog call", 2.0, False),
     "ice_crack": ("Ice cracking and groaning sharply across a frozen lake, a single splitting crack with echo, isolated sound", 2.2, False),
     "ptarmigan": ("A ptarmigan's low clucking call across a snowy tundra, single isolated arctic bird call", 2.5, False),
-    "wind_gust": ("A sudden cold wind gust whipping across an open snowfield, single isolated whooshing gust", 2.2, False),
+    "wind_gust": ("A natural gust of cold wind rising and falling as it sweeps across open snow, a soft airy organic whoosh of moving air, NOT a beep or interface sound, single isolated gust", 2.6, False),
     "exotic_bird": ("An exotic tropical jungle bird calling a bright distinctive squawk in the canopy, single isolated call", 2.5, False),
     "frog_exotic": ("An exotic tropical tree frog chirping and trilling in the humid jungle night, single isolated call", 2.5, False),
     "howler": ("A distant howler monkey whooping and roaring through the deep jungle canopy, single isolated primate call", 3.0, False),
     "night_creature": ("A mysterious distant nocturnal jungle creature call, an eerie isolated whoop in the dark rainforest, single isolated sound", 2.8, False),
     "eagle": ("A mountain eagle's piercing cry echoing across high rocky peaks, single isolated raptor screech", 2.5, False),
-    "rockfall_echo": ("Distant rocks tumbling and clattering down a mountainside, a single isolated rockfall with echo", 2.8, False),
+    "rockfall_echo": ("A small rockslide of heavy stones and boulders tumbling and crashing down a steep mountainside, deep rumbling rock impacts with mountain echo, heavy stone NOT rattling dice or pebbles, single isolated rockfall", 3.0, False),
     "gull": ("A seagull crying a few isolated calls over the shoreline, single isolated coastal bird call", 2.5, False),
     "collapse": ("A distant deep underground rock collapse, a muffled rumbling cave-in far away with echo, single isolated sound", 3.0, False),
     "groan": ("A deep ominous groan of shifting rock and earth deep underground, a single low isolated creak with echo", 2.8, False),
@@ -146,17 +146,17 @@ EXPANSION = {
     "shimmer": ("A soft ethereal crystalline shimmer, a delicate glassy ringing sparkle in a cavern, isolated sound", 2.5, False),
     "steam_hiss": ("A short hiss of steam venting from a geothermal hot spring, single isolated steam burst", 2.0, False),
     # --- global stingers (rare distant surprises; non-entity, augment-safe) ---
-    "branch_snap": ("A single dry tree branch snapping and cracking sharply in a quiet forest, a lone isolated snap with a faint echo, no music", 2.0, False),
+    "branch_snap": ("A dead tree branch breaking with a sharp splintering woody CRACK followed by crackling twigs and a soft thud of falling wood in a forest, breaking timber NOT a plastic lightswitch click, single isolated snap", 2.2, False),
     "brush_rustle": ("A sudden rustle of leaves and dry undergrowth as something small moves through the brush and is gone, single isolated rustle", 2.2, False),
     "distant_whistle": ("A faint eerie wind whistling far in the distance across an open landscape, a lone isolated airy whistle, unsettling", 2.8, False),
-    "lone_gust": ("A single sudden gust of wind rushing through tree branches and leaves then fading, one isolated whooshing gust", 2.5, False),
+    "lone_gust": ("A sudden whooshing gust of natural wind rushing through tree leaves and branches and fading away, organic moving air in a forest, NOT an electronic or interface sound, single isolated gust", 2.6, False),
     "rock_settle": ("A small rock shifting and settling with a dull knock and a faint trickle of pebbles in a quiet cave, single isolated sound", 2.2, False),
     "far_echo": ("A faint distant unidentified echo deep underground, a lone hollow reverberating sound far away in the dark, isolated", 3.0, False),
     # --- reactive trigger beds (loops) ---
     "tension_drone": ("A low ominous tension drone of looming dread, a dark sustained subterranean rumble signalling nearby danger, horror ambient, seamless loop", 9.0, True),
-    "windchill_ring": ("A bitter freezing wind-chill ambience, a thin high keening ring of icy wind biting and howling faintly, harsh and cold, seamless loop", 8.0, True),
-    "heartbeat": ("A slow muffled human heartbeat thudding steadily as if heard from inside the body, deep dull rhythmic pulse, seamless loop", 6.0, True),
-    "shimmer": ("A faint ethereal aurora shimmer, soft otherworldly high glassy shimmering tones drifting across a frozen starry night sky, magical and serene, seamless loop", 9.0, True),
+    "windchill_ring": ("A bitter freezing winter wind howling and moaning low across a frozen waste, a mournful deep cold gale, NO insect buzz and no high ringing tones, harsh and cold, seamless loop", 8.0, True),
+    "heartbeat": ("A slow steady muffled heartbeat, a deep dull rhythmic lub-dub pulse heard from inside the chest, clean and even spacing with no extra knocks or hits, seamless loop", 6.0, True),
+    "shimmer": ("A soft low ethereal aurora ambience, a gentle warm slowly drifting shimmering pad over a quiet frozen night, smooth and soothing with NO high-pitched ringing or whine or tinnitus tone, seamless loop", 9.0, True),
     # --- grassland locust = cicada hot-day drone (rare, louder one-shot over the quiet meadow bed) ---
     "locust": ("The loud droning whine of cicadas on a hot summer day, a single sustained high buzzing insect drone that swells up in volume then slowly fades away, classic summer heat sound, isolated, no other sounds", 5.0, False),
 }
@@ -192,12 +192,13 @@ def spec_for(rel):
             return ("A swarm of bats screeching and flapping in a cave, dense chaotic leathery wingbeats "
                     "and shrill squeaks, seamless loop", 3.0, True)
         if base == "scaredbats":
-            return ("A startled flock of bats suddenly taking flight and flying away, a rush of many "
-                    "leathery wings rapidly flapping and whooshing as they recede into the distance "
-                    "of a cave — wingbeats only, no screeching or squeaking", 2.2, False)
+            return ("A colony of bats suddenly scared and panicking, instantly bursting into flight and "
+                    "rapidly fleeing away — a fast urgent rush of many leathery wings frantically "
+                    "flapping and quickly whooshing as the frightened swarm escapes deep into a cave and "
+                    "recedes — hurried startled wingbeats only, no screeching", 2.6, False)
         if base == "rats":
-            return ("Rats scurrying and scratching behind stone walls, tiny claws skittering on rock with "
-                    "faint squeaks, seamless loop", 2.5, True)
+            return ("Soft faint rats scurrying in a dark cave, gentle skittering of tiny feet on stone with "
+                    "quiet muffled squeaks, subtle and soft and NOT screechy or scratchy, seamless loop", 3.0, True)
         if base == "ratsniff":
             return ("A rat close by sniffing and snuffling, small rodent breaths and light scratching, "
                     "seamless loop", 2.0, True)
@@ -234,10 +235,9 @@ def spec_for(rel):
     # --- Trees ---
     if parts[0] == "tree":
         if base.startswith("creaky-tree"):
-            return ("A tall living tree outdoors in a forest swaying in the wind, its trunk and "
-                    "branches groaning and creaking organically as they flex, with faint leaves "
-                    "rustling and open-air woodland ambience — a living tree bending outside, "
-                    "NOT a wooden house, floorboard, door, or building", 2.0, False)
+            return ("A tall tree slowly creaking and groaning in the wind outdoors, a deep low organic "
+                    "wood-flexing creak of a bending trunk, NO leaf rustling, NO rattling, no pouring "
+                    "or pattering sounds — just groaning timber, single isolated creak", 2.2, False)
         if base.startswith("startled"):
             return ("A flock of birds suddenly taking flight in alarm, an explosive rush of flapping "
                     "wings and panicked chirping", 1.6, False)
@@ -300,6 +300,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="print prompts, make no API calls")
     ap.add_argument("--only", default=None, help="substring filter on the manifest path")
+    ap.add_argument("--outdir", default=None, help="output root (default assets/ambientsymphony); use e.g. 'audition' to A/B without overwriting")
     ap.add_argument("--limit", type=int, default=0, help="generate at most N clips (0 = all)")
     ap.add_argument("--force", action="store_true", help="regenerate even if the .ogg already exists")
     ap.add_argument("--sleep", type=float, default=0.6, help="seconds between API calls")
@@ -318,7 +319,8 @@ def main():
 
     todo = []
     for rel in paths:
-        out = os.path.join(ASSETS, *rel.split("/"))
+        base_out = os.path.join(ROOT, args.outdir) if args.outdir else ASSETS
+        out = os.path.join(base_out, *rel.split("/"))
         if not args.force and os.path.exists(out) and not args.dry_run:
             # Only skip clips that look already-AI-generated? We can't tell; honor --force vs skip.
             pass
